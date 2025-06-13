@@ -12,19 +12,45 @@
   --color-foreground: var(--foreground);
   --color-green: var(--green);
   --color-gray: var(--gray);
-  --font-helvetica: var(--font-helvetica);
+  /*--font-helvetica: var(--font-helvetica);*/
 }
 
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #f8f6f3;
+    --foreground: #000000;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 5.93rem;
+}
+
+h2 {
+  font-size: 5rem;
+}
+
+h4 {
+  font-size: 2.18rem;
+}
+
+.container {
+  margin: 0 auto;
+  width: 92%;
+  max-width: 1400px;
+}
+
+.main-background {
+  background-image: url('../../public/backgrounds/c837a6_5950adc5b1a94d49bcd90573bd105b06~mv2.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
