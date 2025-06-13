@@ -27,10 +27,10 @@ export default function Footer(){
                                     <a href="#" className="uppercase active:opacity-30">Home</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="uppercase active:opacity-30">Menu</a>
+                                    <a href="#menu" className="uppercase active:opacity-30">Menu</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="uppercase active:opacity-30">About</a>
+                                    <a href="#about" className="uppercase active:opacity-30">About</a>
                                 </li>
                                 <li>
                                     <a href="#" className="uppercase active:opacity-30">Contact</a>

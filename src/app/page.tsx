@@ -19,7 +19,7 @@ export default function Home() {
         </section>
 
         {/* Our Menu */}
-        <section className="py-10">
+        <section className="py-10" id="menu">
             <div className="container flex items-start gap-x-10">
                 <h2>Our Menu</h2>
                 <div>
@@ -34,7 +34,7 @@ export default function Home() {
         </section>
 
         {/* Meal Images */}
-        <section className="py-5">
+        <section className="py-5" id="menu">
             <div className="flex gap-x-5">
                 <Image src={"/images/c837a6_672d04d8ce4b44a8b10f03e4f65e33d1~mv2.avif"} alt={"First Meal"} width={482} height={912} className="w-full h-[912px] object-cover" />
                 <Image src={"/images/c837a6_d41ecdd313844ab48dacf8604cd46337~mv2.avif"} alt={"Second Meal"} width={482} height={912} className="w-full h-[912px] object-cover"/>
@@ -42,7 +42,7 @@ export default function Home() {
         </section>
 
         {/* About Us */}
-        <section className="bg-green">
+        <section className="bg-green" id="about">
             <div className="h-[759px]">
                 <div className="flex justify-center items-center gap-x-5 h-full">
                     <h2 className="uppercase max-w-[500px] leading-20">It{"'"}s always more than good food</h2>
