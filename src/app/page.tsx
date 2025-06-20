@@ -13,7 +13,7 @@ export default function Home() {
         <section style={{ height: 'calc(100vh + 150px)' }}>
           <div className="main-background bg-norepeat bg-center h-full">
               <div className="container">
-                <h4 className="pt-44 leading-10">BRASSERIE <br /> & BAR</h4>
+                <h4 className="pt-10 leading-10">BRASSERIE <br /> & BAR</h4>
               </div>
           </div>
         </section>
